@@ -25,7 +25,6 @@ public class Parametros {
      */
     public void addParametro(Parametro param){
 	this.params.add(param);
-	System.out.println(this.construirParámetros());
     }
     
     /**
