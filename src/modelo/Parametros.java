@@ -16,7 +16,7 @@ public class Parametros {
      * Constructor vacío.
      */
     public Parametros(){
-	
+	this.params = new LinkedList();
     }
     
     /**
@@ -25,6 +25,7 @@ public class Parametros {
      */
     public void addParametro(Parametro param){
 	this.params.add(param);
+	System.out.println(this.construirParámetros());
     }
     
     /**

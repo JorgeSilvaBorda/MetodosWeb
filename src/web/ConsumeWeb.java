@@ -22,6 +22,13 @@ import modelo.SalidaWeb;
 public class ConsumeWeb {
     
     /**
+     * Constructor vacío.
+     */
+    public ConsumeWeb(){
+	
+    }
+    
+    /**
      * Envía una petición POST a una URL determinada.
      * @param urlDestino {@code String} con la URL a enviar la solicitud.
      * @return {@link modelo.SalidaWeb} con el código de respuesta y el contenido de la salida.
